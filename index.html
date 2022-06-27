@@ -39,7 +39,7 @@
         <h4 class="txt-m txt-bold mb6">移動手段を選択:</h4>
         <div class="mb12 mr12 toggle-group align-center">
           <label class="toggle-container">
-            <input name="profile" type="radio" value="walking" checked/>
+            <input name="profile" type="radio" value="walking" checked />
             <div class="toggle toggle--active-null toggle--null">徒歩</div>
           </label>
           <label class="toggle-container">
@@ -85,8 +85,8 @@
 
       // Create variables to use in getIso()
       const urlBase = "https://api.mapbox.com/isochrone/v1/mapbox/";
-      const lon =139.7599435;
-      const lat = 35.7106943;
+      const lon = 139.7600585;
+      const lat = 35.7106117;
       let profile = "walking";
       let minutes = 10;
 
@@ -140,7 +140,7 @@
             source: "iso",
             layout: {},
             paint: {
-              "fill-color": "#ff7570",
+              "fill-color": "#498efc",
               "fill-opacity": 0.3,
             },
           },
